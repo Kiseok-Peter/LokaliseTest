@@ -1,23 +1,13 @@
-/* 
-  Localizable.strings
-  HelloBot_iOS
-
-  Created by 정다은 on 2020/09/07.
-  Copyright © 2020 thingsflow. All rights reserved.
-*/
-
 "hellobot_title" = "헬로우봇 - AI 사주・타로・상담";
 "chatbot_name_bobe" = "바비";
 "chatbot_name_lamama" = "라마마";
 "chatbot_name_leafy" = "풀리피";
 "chatbot_name_mingming" = "판밍밍";
 "chatbot_name_scarlet" = "스칼렛";
-
 "webview_url_live" = "https://hellobot.co";
 "webview_url_test" = "https://dev.hellobot.co";
 "support_email" = "support@hellobot.co";
 "support_phone_number" = "02-562-0097";
-
 "label_ok" = "확인";
 "label_close" = "닫기";
 "label_cancel" = "취소";
@@ -199,8 +189,8 @@
 "chat_capture_label" = "스크린샷 저장! 친구에게 공유할래요?";
 "chat_capture_label_today" = "헬로우봇 홈에 공유해볼래요?\n모두에게 공개됩니다";
 "chat_capture_button_today" = "헬로우봇 홈으로 공유";
-"chat_ad_guide_enter" = "\'%@\'님이 입장했습니다.";
-"chat_ad_guide_exit" = "\'%@\'님이 퇴장했습니다.";
+"chat_ad_guide_enter" = "'%@'님이 입장했습니다.";
+"chat_ad_guide_exit" = "'%@'님이 퇴장했습니다.";
 "chat_image_toast_save_success" = "이미지를 저장했습니다";
 "guide_less_than_fifty_message" = "메시지는 한 번에 최대 50개까지 캡처할 수 있어요";
 "guide_capture_select_start" = "캡처를 시작할 말풍선을 👆꾸욱👆 눌러주세요";
@@ -606,7 +596,6 @@
 "store_label_section_title_normal_product" = "일반 상품";
 "label_share" = "공유";
 "label_views" = "조회수";
-// 결과 이미지 추가된 문자
 "result_image_detail_reward_guide_1" = "내가 공유한 링크로 친구가 결제하면";
 "result_image_detail_reward_guide_2" = "하트 %d개 를 선물해드려요.";
 "result_image_detail_share" = "링크 공유";
@@ -614,14 +603,12 @@
 "result_image_detail_reward_description_1" = "%@님이 돌려받을 수 있는";
 "result_image_detail_reward_description_2" = "하트 %d개 가 있어요!";
 "result_image_detail_reward_button" = "지금 돌려 받기";
-// 손금 추가된 문자
 "chatroom_image_upload_description" = "사진을 업로드 해주세요";
 "chatroom_image_upload_button" = "업로드";
 "label_select_image" = "사진 선택";
 "label_photo_library" = "사진 보관함";
 "label_camera" = "사진 찍기";
 "chatroom_image_upload_loading" = "사진을 업로드 하는 중";
-// 선물하기 추가된 문자
 "skill_detail_present_tooltip" = "선물해보세요!";
 "present_label_date_status_paid" = "%@ 사용 기간 만료 예정";
 "present_label_date_status_used" = "%@ 사용 완료";
@@ -648,33 +635,26 @@
 "present_failure_description_used" = "이미 사용한 선물이에요.\n선물 받은 스킬은 한 번만 이용할 수 있어요.";
 "present_failure_description_canceled" = "보낸 사람이 취소한 선물이에요.";
 "present_failure_description_expired" = "선물을 열람할 수 있는 기간이 지났어요.";
-// 채팅룸 추가된 문자
 "chat_room_gift_name" = "%@님에게 선물 가능한 하트";
-// 권한 관련 추가 문자열
 "camera_permssion_label_title" = "사진을 찍으시겠어요?";
 "camera_permssion_label_description" = "헬로우봇에서 사진을 찍으려면 iOS 설정에서 카메라 권한을 켜야 합니다";
 "photo_permssion_label_title" = "사진첩을 여시겠어요?";
 "photo_permssion_label_description" = "헬로우봇에서 사진첩을 열려면 iOS 설정에서 사진 권한을 켜야 합니다";
 "photo_save_permssion_label_title" = "사진을 저장하시겠어요?";
 "photo_save_permssion_label_description" = "헬로우봇에서 사진을 저장하려면 iOS 설정에서 사진 권한을 켜야 합니다";
-// 기본 에러화면 default text
 "default_error_view_title" = "일시적인 오류입니다";
 "default_error_view_desc" = "잠시 후에 다시 시도해 주세요";
 "default_error_view_retry" = "다시 시도하기";
 "default_error_view_back" = "돌아가기";
-// 추천 스킬 팝업
 "recommend_skill_popup_title" = "지금 보면 최대 %d%% 할인";
-// 알림 센터
 "notification_center_title" = "알림";
 "notification_center_type_push" = "새로운 소식";
 "notification_center_type_notice" = "공지사항/이벤트";
 "notification_center_type_heart" = "내 하트";
 "notification_center_empty_title" = "새로운 알림이 없어요";
 "notification_center_type_mybot" = "내 친구";
-// 친구탭
 "friend_label_popular" = "추천 친구들";
 "label_total" = "전체 %d";
-// 봇 프로필
 "friend_detail_label_link" = "링크";
 "friend_detail_button_follow" = "팔로우";
 "friend_detail_button_followed" = "팔로잉";
@@ -684,17 +664,14 @@
 "friend_detail_skill_count" = "%@ 스킬수";
 "friend_detail_follower_count" = "%@ 팔로워";
 "friend_detail_review_count" = "%@ 리뷰수";
-// 매칭
 "matching_request_description" = "헬로우봇을 사용하는 친구들과 대화하고\n이모지를 모아보세요!";
 "matching_request_description_bold" = "이모지";
 "matching_request_button" = "대화방 만들기";
 "matching_requesting_button" = "대화 요청중";
-// 팔로우 취소
 "follow_cancel_title" = "팔로우 취소";
 "follow_cancel_descritpion" = "%@님의\n팔로우를 취소할까요?";
 "follow_cancel_button" = "팔로우 취소하기";
 "follow_cancel_dismiss" = "다음에 할게요!";
-// 검색
 "skill_search_recent_header" = "최근 검색어";
 "skill_search_recent_delete_all" = "전체 삭제";
 "skill_search_recent_empty" = "검색 내역이 없습니다.";
@@ -705,10 +682,8 @@
 "search_total_label" = "전체";
 "search_skill_label" = "스킬";
 "search_more_label" = "%@ 더보기";
-// 광고
 "ad_load_fail_retry" = "광고 로딩 중 오류가 발생했습니다. 재시도 중(%d/3)";
 "ad_load_fail" = "광고 로딩 중 오류가 발생했습니다. 잠시 후 다시 시도해주세요.";
-// 스킬 찜하기
 "skill_detail_scrap_on" = "스킬을 스크랩했어요\n프로필 > 내 스크랩에서 볼 수 있어요";
 "skill_detail_scrap_off" = "스크랩을 취소했어요";
 "skill_detail_scrap_tooltip" = "보고 싶은 스킬을 스크랩하세요";
@@ -716,7 +691,6 @@
 "skill_scrap_sort_default" = "최신순";
 "skill_scrap_sort_bot_name" = "친구 이름순";
 "skill_scrap_empty" = "스크랩한 스킬이 없어요";
-// 푸시 옵트인
 "notification_center_push_off_title" = "기기 알림이 꺼져있어요!";
 "notification_center_push_off_desc" = "알림을 켜서 다양한 소식을 받아보세요.";
 "push_setting_base_section_title" = "혜택 및 이벤트 소식";
