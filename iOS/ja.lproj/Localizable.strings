@@ -1,23 +1,13 @@
-/*
-  Localizable.strings
-  HelloBot_iOS
-
-  Created by 정다은 on 2020/09/07.
-  Copyright © 2020 thingsflow. All rights reserved.
-*/
-
 "hellobot_title" = "ハローボット - 占い・タロット・心理テスト";
 "chatbot_name_bobe" = "バービ";
 "chatbot_name_lamama" = "ラママ";
 "chatbot_name_leafy" = "プリピ";
 "chatbot_name_mingming" = "パンミンミン";
 "chatbot_name_scarlet" = "スカーレット";
-
 "webview_url_live" = "https://jp.hellobot.co";
 "webview_url_test" = "https://dev-jp.hellobot.co";
 "support_email" = "support.jp@hellobot.co";
 "support_phone_number" = "050-6868-05687";
-
 "label_ok" = "確認";
 "label_close" = "閉じる";
 "label_cancel" = "キャンセル";
@@ -199,8 +189,8 @@
 "chat_capture_label" = "スクショ保存完了！\n友達にシェアしますか？";
 "chat_capture_label_today" = "ホームにシェアしますか？\nみんなに公開されます";
 "chat_capture_button_today" = "ホームにシェア";
-"chat_ad_guide_enter" = "\'%@\'様が入りました";
-"chat_ad_guide_exit" = "\'%@\'様が出ました";
+"chat_ad_guide_enter" = "'%@'様が入りました";
+"chat_ad_guide_exit" = "'%@'様が出ました";
 "chat_image_toast_save_success" = "スクショを保存しました";
 "guide_less_than_fifty_message" = "一度に50つのメッセージまでスクショ出来ます";
 "guide_capture_select_start" = "スクショしたい最初のメッセージを👆グッと👆押して下さい";
@@ -254,7 +244,7 @@
 "store_label_what_can_you_do" = "ハートで何ができますか？";
 "store_label_number_of_skills" = "30";
 "store_label_you_can_do_this" = "個以上のスキルを利用することが出来ます！";
-"store_label_skillslot_footer" = " "; //"ハローボットの仲間たちは、皆さんがくれたハートで\n新しいスキルを作ってます"; // 일본어에서만 제거
+"store_label_skillslot_footer" = " ";
 "store_toast_remain_unfinished_transaction" = "ハートの支給が終わってません\nアプリを再起動してください";
 "store_promotion_dialog_guide_close" = "もうすぐセールが終わり！\nプロフィール > ハートストアで確認してください";
 "store_promotion_dialog_button" = "今購入する";
@@ -286,8 +276,8 @@
 "user_guide_email_marketing" = "プロモーションメール受信に同意します(任意)";
 "user_title_email_input" = "メールを認証する必要があります";
 "user_title_email_validation" = "%@に\nメールを送信しました";
-"user_guide_email_validation" = "10分以内にメールを確認して\n認証番号を入力してください。"; ///
-"user_guide_email_validation_time" = "10分"; ///
+"user_guide_email_validation" = "10分以内にメールを確認して\n認証番号を入力してください。";
+"user_guide_email_validation_time" = "10分";
 "user_guide_email_validation_retry" = "受け取れませんでしたか？";
 "user_toast_email_validation_retry" = "メールを再送信しました";
 "user_dialog_title_email_marketing" = "メール配信に同意";
@@ -568,7 +558,7 @@
 "heart_history_label_guide" = "会員登録しないと溜めたハートがなくなってしまう可能性があります";
 "profile_label_check_my_rank" = "自分のランクを確認！";
 "profile_label_login" = "ログインする";
-"profile_label_let_me_know_you" = " "; // "ハローボットの仲間たちと友だちになる"; // 일본에서는 공백으로 두기로
+"profile_label_let_me_know_you" = " ";
 "profile_label_check_rank_after_login" = "ログインして自分のランクを確認する";
 "profile_label_of_hellobot_planet" = "ハローボット惑星の";
 "rank_label_title" = "マイランク";
@@ -606,7 +596,6 @@
 "store_label_section_title_normal_product" = "一般商品";
 "label_share" = "シェア";
 "label_views" = "閲覧数";
-// 결과 이미지 추가된 문자
 "result_image_detail_reward_guide_1" = "내가 공유한 링크로 친구가 결제하면";
 "result_image_detail_reward_guide_2" = "하트 %d개 를 선물해드려요.";
 "result_image_detail_share" = "링크 공유";
@@ -616,14 +605,10 @@
 "result_image_detail_reward_button" = "지금 돌려 받기";
 "chatroom_image_upload_description" = "사진을 업로드 해주세요";
 "chatroom_image_upload_button" = "업로드";
-// 손금 추가된 문자
-"chatroom_image_upload_description" = "사진을 업로드 해주세요";
-"chatroom_image_upload_button" = "업로드";
 "label_select_image" = "사진 선택";
 "label_photo_library" = "사진 보관함";
 "label_camera" = "사진 찍기";
 "chatroom_image_upload_loading" = "사진을 업로드 하는 중";
-// 선물하기 추가된 문자
 "skill_detail_present_tooltip" = "선물해보세요!";
 "present_label_date_status_paid" = "%@ 사용 기간 만료 예정";
 "present_label_date_status_used" = "%@ 사용 완료";
@@ -650,33 +635,26 @@
 "present_failure_description_used" = "이미 사용한 선물이에요.\n선물 받은 스킬은 한 번만 이용할 수 있어요.";
 "present_failure_description_canceled" = "보낸 사람이 취소한 선물이에요.";
 "present_failure_description_expired" = "선물을 열람할 수 있는 기간이 지났어요.";
-// 채팅룸 추가된 문자
 "chat_room_gift_name" = "%@님에게 선물 가능한 하트";
-// 권한 관련 추가 문자열
 "camera_permssion_label_title" = "사진을 찍으시겠어요?";
 "camera_permssion_label_description" = "헬로우봇에서 사진을 찍으려면 iOS 설정에서 카메라 권한을 켜야 합니다";
 "photo_permssion_label_title" = "사진첩을 여시겠어요?";
 "photo_permssion_label_description" = "헬로우봇에서 사진첩을 열려면 iOS 설정에서 사진 권한을 켜야 합니다";
 "photo_save_permssion_label_title" = "사진을 저장하시겠어요?";
 "photo_save_permssion_label_description" = "헬로우봇에서 사진을 저장하려면 iOS 설정에서 사진 권한을 켜야 합니다";
-// 기본 에러화면 default text
 "default_error_view_title" = "一時的なエラーが発生しました";
 "default_error_view_desc" = "後でもう一度試してください";
 "default_error_view_retry" = "もう一度試す";
 "default_error_view_back" = "戻る";
-// 추천 스킬 팝업
 "recommend_skill_popup_title" = "今なら最大%d%%割引！";
-// 알림 센터
 "notification_center_title" = "お知らせ";
 "notification_center_type_push" = "新しいお知らせ";
 "notification_center_type_notice" = "お知らせ・イベント";
 "notification_center_type_heart" = "マイハート";
 "notification_center_empty_title" = "新しいお知らせがありません";
 "notification_center_type_mybot" = "マイボット";
-// 친구탭
 "friend_label_popular" = "おすすめの友達";
 "label_total" = "全体%d";
-// 봇 프로필
 "friend_detail_label_link" = "リンク";
 "friend_detail_button_follow" = "フォロー";
 "friend_detail_button_followed" = "フォロー中";
@@ -686,17 +664,14 @@
 "friend_detail_skill_count" = "%@ スキル数";
 "friend_detail_follower_count" = "%@ フォロワー";
 "friend_detail_review_count" = "%@ レビュー数";
-// 매칭
 "matching_request_description" = "ハローボットを使う友達と会話して\n絵文字を集めてみてください!";
 "matching_request_description_bold" = "絵文字";
 "matching_request_button" = "チャットルーム作り";
 "matching_requesting_button" = "対話要請中";
-// 팔로우 취소
 "follow_cancel_title" = "フォローキャンセル";
 "follow_cancel_descritpion" = "%@様の\nフォローをキャンセルしましょうか？";
 "follow_cancel_button" = "フォローキャンセルする";
 "follow_cancel_dismiss" = "今度やります！";
-// 검색
 "skill_search_recent_header" = "最近の検索語";
 "skill_search_recent_delete_all" = "すべて削除";
 "skill_search_recent_empty" = "検索履歴がありません。";
@@ -707,10 +682,8 @@
 "search_total_label" = "全体";
 "search_skill_label" = "スキル";
 "search_more_label" = "%@をもっと見る";
-// 광고
 "ad_load_fail_retry" = "広告のロード中にエラーが発生しました。 再試行中(%d/3)";
 "ad_load_fail" = "広告のロード中にエラーが発生しました。 しばらくしてからもう一度お試しください。";
-// 스킬 찜하기
 "skill_detail_scrap_on" = "スキルをスクラップしました。\nプロフィール > 私のスクラップで見ることができます。";
 "skill_detail_scrap_off" = "スクラップをキャンセルしました。";
 "skill_detail_scrap_tooltip" = "見たいスキルをスクラップしてください。";
@@ -718,7 +691,6 @@
 "skill_scrap_sort_default" = "最新順";
 "skill_scrap_sort_bot_name" = "友達の名前順";
 "skill_scrap_empty" = "スクラップしたスキルがありません。";
-// 푸시 옵트인
 "notification_center_push_off_title" = "機器の通知がオフになっています!";
 "notification_center_push_off_desc" = "通知をオンにして、さまざまなニュースを受け取ってください。";
 "push_setting_base_section_title" = "特典·イベントのお知らせ";
